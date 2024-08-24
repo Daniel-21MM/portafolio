@@ -304,6 +304,7 @@ img {
 
 .about__description {
   margin-bottom: var(--mb-4);
+  text-align: justify;
 }
 
 .about__img {
@@ -345,6 +346,13 @@ img {
 }
 
 /* ===== SKILLS =====*/
+.skills__icon {
+  width: 50px;
+  height: auto;
+  margin-left: 10px; 
+  vertical-align: middle;
+}
+
 .skills__container {
   row-gap: 2rem;
 }
@@ -353,14 +361,17 @@ img {
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
   margin-bottom: var(--mb-2);
+  text-align: center;
+  font-weight: var(--font-bold);
 }
 
 .skills__data {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 var(--mb-2);
   margin-bottom: var(--mb-4);
+  font-weight: var(--font-bold);
 }
 
 .skills__name {

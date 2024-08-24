@@ -30,3 +30,6 @@ toggleMenu.addEventListener("click", toggleNavMenu);
 closeMenu.addEventListener("click", closeNavMenu);
 navLinks.forEach((link) => link.addEventListener("click", closeNavMenu));
 window.addEventListener("scroll", activateLink);
+
+
+
